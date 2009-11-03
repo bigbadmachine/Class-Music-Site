@@ -1,0 +1,40 @@
+* {
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  outline: none;
+}
+
+html {
+  position: relative;
+  min-width: 1280px;
+  min-height: 720px;
+  height: 100%;
+}
+
+body {
+  font-family: 'Helvetica';
+  margin: 0;
+  padding: 0;
+  color: #111;
+  background-color: yellow;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.navigation ul li {display: inline;}
+
+.home_image {
+  float: left;
+  padding: 0 10px 10px 0;
+}
+
+.content {
+  padding: 0 10px;
+}
+
+.footer {
+  margin-top: 20px;
+  clear: both;
+}
